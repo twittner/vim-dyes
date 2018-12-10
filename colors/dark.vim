@@ -77,7 +77,7 @@ hi Comment      guifg=#737171 gui=none
 hi link SpecialComment Comment
 hi Constant     guifg=#ef7d64 gui=none
 hi String       guifg=#7ebf49 gui=none
-hi Character    guifg=#c5c8c6 gui=none
+hi Character    guifg=#7ebf49 gui=none
 hi Function     guifg=#ffde47 gui=none
 hi Statement    guifg=#41c5fa gui=none
 hi Type         guifg=#ef7d64 gui=none
