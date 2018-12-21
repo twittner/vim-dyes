@@ -73,7 +73,7 @@ hi GitGutterChange guifg=#007ee6 guibg=#f5f5f5 gui=none
 hi Ignore       guifg=#808080
 hi Identifier   guifg=#0086b3
 hi PreProc      guifg=#502087 gui=none
-hi Comment      guifg=#999988 gui=none
+hi Comment      guifg=#999988 gui=italic
 hi link SpecialComment Comment
 hi Constant     guifg=#177f80 gui=none
 hi String       guifg=#008000 gui=none
