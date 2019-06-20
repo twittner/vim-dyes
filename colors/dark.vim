@@ -30,7 +30,7 @@ hi vimFold      guibg=#191a1c guifg=#3a3e42 gui=bold
 hi FoldColumn   guibg=#191a1c guifg=#3a3e42 gui=bold
 
 hi LineNr       guifg=#393b40 guibg=#191a1c gui=none
-hi SignColumn   guifg=#c5c8c6 guibg=#1d1f21 gui=none
+hi SignColumn   guifg=#393b40 guibg=#191a1c gui=none
 hi NonText      guifg=#3a3e42 guibg=#1d1f21
 hi Folded       guifg=#3a3e42 guibg=#191a1c gui=bold
 hi FoldeColumn  guifg=#3a3e42 guibg=#191a1c gui=bold
@@ -107,7 +107,14 @@ hi spellLocal   guisp=#729fcf
 hi rustUnsafeKeyword guifg=#ff00ff gui=bold
 hi rustPanic         guifg=#ff0000 gui=bold
 
-" Language client
+" ALE
 hi ALEInfoSign    guibg=#191a1c
 hi ALEWarningSign guibg=#191a1c
 hi ALEErrorSign   guibg=#191a1c
+
+hi SignColumn   guifg=#393b40 guibg=#191a1c gui=bold
+
+" Coc
+hi CocErrorSign   guifg=#ff5050 guibg=#191a1c gui=bold
+hi CocWarningSign guifg=#ffdd50 guibg=#191a1c gui=bold
+hi CocInfoSign    guifg=#959896 guibg=#191a1c gui=bold
