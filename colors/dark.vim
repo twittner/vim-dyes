@@ -15,7 +15,7 @@ hi Normal       guifg=#c5c8c6 guibg=#1d1f21
 " Cursor
 hi Cursor       guibg=#ff0000 guifg=#ffffff
 hi CursorLine   guibg=#191a1c
-hi CursorLineNr guifg=#c5c8c6 guibg=#1d1f21 gui=none
+hi CursorLineNr guifg=#a5a8a6 guibg=#191a1c gui=bold
 hi CursorColumn guibg=#363f51
 
 " Diff
@@ -46,7 +46,7 @@ hi MoreMsg      guifg=#990000
 
 hi Title        guifg=#ef5939
 hi WarningMsg   guifg=#ef5939
-hi SpecialKey   guifg=#24c5c7 gui=none
+hi SpecialKey   guifg=#24c5c7 gui=italic
 
 hi MatchParen   guibg=#1d1f21 guifg=#00ffff gui=bold
 hi Underlined   guifg=#c5c8c6 gui=underline
@@ -92,6 +92,7 @@ hi Operator     guifg=#41c5fa gui=none
 
 " Completion menus
 hi WildMenu     guifg=#d9d8d8  guibg=#009ddc gui=none
+
 hi Pmenu        guifg=#ffffff  guibg=#009ddc gui=none
 hi PmenuSel     guifg=#009ddc  guibg=#ffffff gui=none
 hi PmenuSbar    guifg=#d0d5dd  guibg=#e0e5ee gui=bold
@@ -107,14 +108,13 @@ hi spellLocal   guisp=#729fcf
 hi rustUnsafeKeyword guifg=#ff00ff gui=bold
 hi rustPanic         guifg=#ff0000 gui=bold
 
-" ALE
-hi ALEInfoSign    guibg=#191a1c
-hi ALEWarningSign guibg=#191a1c
-hi ALEErrorSign   guibg=#191a1c
-
-hi SignColumn   guifg=#393b40 guibg=#191a1c gui=bold
+" NERDTree
+hi NERDTreeFile guifg=#c5c8c6
 
 " Coc
 hi CocErrorSign   guifg=#ff5050 guibg=#191a1c gui=bold
 hi CocWarningSign guifg=#ffdd50 guibg=#191a1c gui=bold
 hi CocInfoSign    guifg=#959896 guibg=#191a1c gui=bold
+hi CocHintSign    guifg=#959896 guibg=#191a1c gui=none
+hi CocSymbolsName guifg=#c5c8c6
+hi CocOutlineName guifg=#c5c8c6

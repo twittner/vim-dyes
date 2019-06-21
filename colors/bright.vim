@@ -14,8 +14,8 @@ hi Normal       guifg=#202020 guibg=#fafafa
 
 " Cursor
 hi Cursor       guibg=#ff0000 guifg=#ffffff
-hi CursorLine   guibg=#eaeaea
-hi CursorLineNr guifg=#202020 guibg=#fafafa gui=none
+hi CursorLine   guibg=#f1f1f1
+hi CursorLineNr guifg=#202020 guibg=#f5f5f5 gui=bold
 hi CursorColumn guibg=#e8e8ee
 
 " Diff
@@ -109,12 +109,13 @@ hi spellLocal   guisp=#729fcf
 hi rustUnsafeKeyword guifg=#ff00ff gui=bold
 hi rustPanic         guifg=#ff0000 gui=bold
 
-" ALE
-hi ALEInfoSign    guibg=#f5f5f5
-hi ALEWarningSign guibg=#f5f5f5
-hi ALEErrorSign   guibg=#f5f5f5
+" NERDTree
+hi NERDTreeFile guifg=#202020
 
 " Coc
 hi CocErrorSign   guifg=#ffa5a5 guibg=#f5f5f5 gui=bold
 hi CocWarningSign guifg=#c99800 guibg=#f5f5f5 gui=bold
 hi CocInfoSign    guifg=#a5a5a5 guibg=#f5f5f5 gui=bold
+hi CocHintSign    guifg=#a5a5a5 guibg=#f5f5f5 gui=none
+hi CocSymbolsName guifg=#202020
+hi CocOutlineName guifg=#202020
