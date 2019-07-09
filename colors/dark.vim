@@ -13,7 +13,7 @@ let g:colors_name="dark"
 hi Normal       guifg=#c5c8c6 guibg=#1d1f21
 
 " Cursor
-hi Cursor       guibg=#ff0000 guifg=#ffffff
+hi Cursor       guibg=#ffd000 guifg=#000000
 hi CursorLine   guibg=#191a1c
 hi CursorLineNr guifg=#a5a8a6 guibg=#191a1c gui=bold
 hi CursorColumn guibg=#363f51
