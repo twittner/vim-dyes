@@ -15,7 +15,7 @@ hi Normal       guifg=#c5c8c6 guibg=#1d1f21
 " Cursor
 hi Cursor       guibg=#ffd000 guifg=#000000
 hi CursorLine   guibg=#191a1c
-hi CursorLineNr guifg=#a5a8a6 guibg=#191a1c gui=bold
+hi CursorLineNr guifg=#7a7aff guibg=#191a1c gui=bold
 hi CursorColumn guibg=#363f51
 
 " Diff
@@ -48,7 +48,7 @@ hi Title        guifg=#ef5939
 hi WarningMsg   guifg=#ef5939
 hi SpecialKey   guifg=#24c5c7 gui=italic
 
-hi MatchParen   guibg=#1d1f21 guifg=#00ffff gui=bold
+hi MatchParen   guibg=none    guifg=#00ffff gui=bold
 hi Underlined   guifg=#c5c8c6 gui=underline
 hi Directory    guifg=#009ddc gui=bold
 
