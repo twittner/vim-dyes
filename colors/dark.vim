@@ -65,6 +65,9 @@ hi MarkWord3    guibg=#ffdb72 guifg=#000000
 hi MarkWord4    guibg=#ff7272 guifg=#000000
 hi MarkWord5    guibg=#ffb3ff guifg=#000000
 hi MarkWord6    guibg=#9999ff guifg=#000000
+hi MarkWord7    guibg=#50ffff guifg=#000000
+hi MarkWord8    guibg=#d69a55 guifg=#000000
+hi MarkWord9    guibg=#ffffff guifg=#000000
 
 " Git Gutter
 hi GitGutterChange guifg=#007ee6 guibg=#191a1c gui=none
