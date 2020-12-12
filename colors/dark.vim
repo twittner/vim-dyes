@@ -19,10 +19,10 @@ hi CursorLineNr guifg=#7a7aff guibg=#191a1c gui=bold
 hi CursorColumn guibg=#363f51
 
 " Diff
-hi DiffAdd                    guibg=#1b331e gui=none
-hi DiffChange                 guibg=#1c2d3b gui=none
-hi DiffDelete   guifg=#52272a guibg=#52272a gui=none
-hi DiffText                   guibg=#284154 gui=none
+hi DiffAdd                    guibg=#1d2e21 gui=none
+hi DiffDelete   guifg=#1d1f21 guibg=#1d1f21 gui=none
+hi DiffChange                 guibg=#1d2939 gui=none
+hi DiffText                   guibg=#1d3969 gui=none
 
 " Folding / Line Numbering / Status Lines
 hi Folded       guibg=#191a1c guifg=#3a3e42 gui=bold
@@ -94,12 +94,12 @@ hi TypeDef      guifg=#c5c8c6 gui=none
 hi Operator     guifg=#41c5fa gui=none
 
 " Completion menus
-hi WildMenu     guifg=#d9d8d8  guibg=#009ddc gui=none
+hi WildMenu     guifg=#d9d8d8  guibg=#000000 gui=none
 
-hi Pmenu        guifg=#ffffff  guibg=#009ddc gui=none
-hi PmenuSel     guifg=#009ddc  guibg=#ffffff gui=none
-hi PmenuSbar    guifg=#d0d5dd  guibg=#e0e5ee gui=bold
-hi PmenuThumb   guifg=#e0e5ee  guibg=#c0c5dd gui=bold
+hi Pmenu        guifg=#bbbbbb  guibg=#242830 gui=none
+hi PmenuSel     guifg=#000000  guibg=#f5c856 gui=bold
+hi PmenuSbar    guifg=#161616  guibg=#303030 gui=bold
+hi PmenuThumb   guifg=#303030  guibg=#161616 gui=bold
 
 " Spelling
 hi spellBad     guisp=#fcaf3e
