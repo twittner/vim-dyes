@@ -114,14 +114,12 @@ hi rustPanic         guifg=#ff0000 gui=bold
 " NERDTree
 hi NERDTreeFile guifg=#c5c8c6
 
-" Coc
-hi CocErrorSign    guifg=#ff5050 guibg=#191a1c gui=bold
-hi CocErrorFloat   guifg=#ff5050 gui=bold
-hi CocWarningSign  guifg=#ffdd50 guibg=#191a1c gui=bold
-hi CocWarningFloat guifg=#ffdd50 gui=bold
-hi CocInfoSign     guifg=#959896 guibg=#191a1c gui=bold
-hi CocInfoFloat    guifg=#959896 gui=bold
-hi CocHintSign     guifg=#959896 guibg=#191a1c gui=bold
-hi CocHintFloat    guifg=#959896 gui=bold
-hi CocSymbolsName  guifg=#c5c8c6
-hi CocOutlineName  guifg=#c5c8c6
+" LSP
+hi LspDiagnosticsSignError           guifg=#ff5050 guibg=#191a1c gui=bold
+hi LspDiagnosticsDefaultError        guifg=#ff5050 gui=bold
+hi LspDiagnosticsSignWarning         guifg=#ffdd50 guibg=#191a1c gui=bold
+hi LspDiagnosticsDefaultWarning      guifg=#ffdd50 gui=bold
+hi LspDiagnosticsSignInformation     guifg=#959896 guibg=#191a1c gui=bold
+hi LspDiagnosticsFloatingInformation guifg=#959896 gui=bold
+hi LspDiagnosticsSignHint            guifg=#959896 guibg=#191a1c gui=bold
+hi LspDiagnosticsDefaultHint         guifg=#959896 gui=bold
