@@ -115,11 +115,11 @@ hi rustPanic         guifg=#ff0000 gui=bold
 hi NERDTreeFile guifg=#c5c8c6
 
 " LSP
-hi LspDiagnosticsSignError           guifg=#ff5050 guibg=#191a1c gui=bold
-hi LspDiagnosticsDefaultError        guifg=#ff5050 gui=bold
-hi LspDiagnosticsSignWarning         guifg=#ffdd50 guibg=#191a1c gui=bold
-hi LspDiagnosticsDefaultWarning      guifg=#ffdd50 gui=bold
-hi LspDiagnosticsSignInformation     guifg=#959896 guibg=#191a1c gui=bold
-hi LspDiagnosticsFloatingInformation guifg=#959896 gui=bold
-hi LspDiagnosticsSignHint            guifg=#959896 guibg=#191a1c gui=bold
-hi LspDiagnosticsDefaultHint         guifg=#959896 gui=bold
+hi DiagnosticError        guifg=#ff5050               gui=bold
+hi DiagnosticHint         guifg=#959896               gui=bold
+hi DiagnosticWarn         guifg=#ffdd50               gui=bold
+hi DiagnosticSignError    guifg=#ff5050 guibg=#191a1c gui=bold
+hi DiagnosticSignHint     guifg=#959896 guibg=#191a1c gui=bold
+hi DiagnosticSignInfo     guifg=#959896 guibg=#191a1c gui=bold
+hi DiagnosticSignWarn     guifg=#ffdd50 guibg=#191a1c gui=bold
+hi DiagnosticFloatingInfo guifg=#959896               gui=bold
