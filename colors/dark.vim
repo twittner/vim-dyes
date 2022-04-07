@@ -19,8 +19,8 @@ hi CursorLineNr guifg=#7a7aff guibg=#191a1c gui=bold
 hi CursorColumn guibg=#363f51
 
 " Diff
-hi DiffAdd                    guibg=#1d2e21 gui=none
-hi DiffDelete   guifg=#1d1f21 guibg=#1d1f21 gui=none
+hi DiffAdd                    guibg=#1d2e25 gui=none
+hi DiffDelete   guifg=#2D1F28 guibg=#2D1F28 gui=none
 hi DiffChange                 guibg=#1d2939 gui=none
 hi DiffText                   guibg=#1d3969 gui=none
 
