@@ -36,6 +36,7 @@ hi Folded       guifg=#808080 guibg=#f5f5f5 gui=bold
 hi FoldeColumn  guifg=#808080 guibg=#f5f5f5 gui=bold
 
 hi VertSplit    guibg=#eaeaea guifg=#eaeaea gui=none
+hi WinSeparator guibg=#eaeaea guifg=#eaeaea gui=none
 hi StatusLine   guibg=#eaeaea guifg=#202020 gui=none
 hi StatusLineNC guibg=#eaeaea guifg=#808080 gui=none
 hi ColorColumn  guibg=#f0f0f0 guifg=#202020 gui=none

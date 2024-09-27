@@ -36,6 +36,7 @@ hi Folded       guifg=#3a3e42 guibg=#191a1c gui=bold
 hi FoldeColumn  guifg=#3a3e42 guibg=#191a1c gui=bold
 
 hi VertSplit    guibg=#191a1c guifg=#191a1c gui=none
+hi WinSeparator guibg=#191a1c guifg=#191a1c gui=none
 hi StatusLine   guibg=#191a1c guifg=#c5c8c6 gui=none
 hi StatusLineNC guibg=#191a1c guifg=#3a3e42 gui=none
 hi ColorColumn  guibg=#252729 guifg=#c5c8c6 gui=none
@@ -96,7 +97,7 @@ hi Operator     guifg=#41c5fa gui=none
 " Completion menus
 hi WildMenu     guifg=#d9d8d8  guibg=#000000 gui=none
 
-hi Pmenu        guifg=#bbbbbb  guibg=#242830 gui=none
+hi Pmenu        guifg=#eeeeee  guibg=#244860 gui=none
 hi PmenuSel     guifg=#000000  guibg=#f5c856 gui=bold
 hi PmenuSbar    guifg=#161616  guibg=#303030 gui=bold
 hi PmenuThumb   guifg=#303030  guibg=#161616 gui=bold
